@@ -63,4 +63,10 @@ export default function Home(){
 #### Routing 
 - In Next13 the way that everything works is inside of our application. The way routing works is based on folders. Inside each folders there should be a page.tsx and we can almost think of that as like an index file essentially. So I wanted to add a new route to like /new page, so I created a new folder called new and inside that I created a new file called page.tsx and that would be how I routed this file. Essentially everything I put in this page.tsx file is going to be what routes to the /new route. Let's say I will need another page. So I created another folder and called it newer and inside of it I created a page.tsx file to write my code in it. For now I just created a simple function to return a simple text.
 #### Note
-We can access to these new pages by slash and name of the folder we want(which is the same as the name of the page we need to access).
+We can access to these new pages by slash and name of the folder we want(which is the same as the name of the page we need to access), wether at the end of URL or as an href for a Link tag.
+
+#### Link
+Link has a built-in Link component. It works just like an a tag.And all that routing stuff happens on the client so if I click on it, it doesn't actually do a full page refresh or it doesn't do like all of that. All it does  all the client routing just like we are used to  in a normal react application. I just need to make sure that I imported Link by 
+`````
+import Link from "next/link";
+````
