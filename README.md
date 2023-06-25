@@ -60,3 +60,7 @@ export default function Home(){
 }
 `````
 - In my layout page I changed a few things like title and className for body and etc. I am gonna keep inter className which is essentially a font I can get from Next. Next has all the google font built-in.
+#### Routing 
+- In Next13 the way that everything works is inside of our application. The way routing works is based on folders. Inside each folders there should be a page.tsx and we can almost think of that as like an index file essentially. So I wanted to add a new route to like /new page, so I created a new folder called new and inside that I created a new file called page.tsx and that would be how I routed this file. Essentially everything I put in this page.tsx file is going to be what routes to the /new route. Let's say I will need another page. So I created another folder and called it newer and inside of it I created a page.tsx file to write my code in it. For now I just created a simple function to return a simple text.
+#### Note
+We can access to these new pages by slash and name of the folder we want(which is the same as the name of the page we need to access).
