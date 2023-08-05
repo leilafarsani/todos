@@ -80,5 +80,5 @@ Also, if I view the source (click line wrap) the source I can see what is happen
 
 ##### Note 
 
-I am just gonna break my code to different functions si they would be more reusable and also try to make my code nicer and cleaner.
+I am just gonna break my code to different functions so they would be more reusable and also try to make my code nicer and cleaner.
 I make a component called TodoI
